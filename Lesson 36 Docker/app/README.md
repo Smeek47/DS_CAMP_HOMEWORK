@@ -18,7 +18,7 @@ Docker must be installed on your system. You can download and install Docker fro
     docker run -d -p 5000:5000 my_image
 This command will start the FastAPI server inside a Docker container and map port 5000 of the container to port 5000 on your host machine.
 
-2. Once the container is running, you can access the FastAPI server by opening your web browser and navigating to http://127.0.0.1:8000/view
+2. Once the container is running, you can access the FastAPI server by opening your web browser and navigating to http://127.0.0.1:5000/view/
 
 
 ## Modeling Info
